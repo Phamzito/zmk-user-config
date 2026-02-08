@@ -1,6 +1,6 @@
 manifest:
   defaults:
-    revision: v0.3
+    revision: main
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -10,5 +10,11 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zephyr
+      remote: zmkfirmware
+      revision: v4.1.0+zmk-fixes
+      import:
+        name-allowlist:
+          - hal_nxp
   self:
     path: config
