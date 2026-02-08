@@ -18,5 +18,6 @@ manifest:
         name-allowlist:
           - hal_nxp
           - cmsis
+          - nanopb
   self:
     path: config
