@@ -16,8 +16,6 @@ manifest:
       clone-depth: 1
       import:
         name-allowlist:
-          - nanopb
-          - cmsis
           - hal_nxp
   self:
     path: config
