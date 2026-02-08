@@ -1,0 +1,19 @@
+identifier: alloy_rise_75
+name: HyperX Alloy Rise 75
+type: keyboard
+arch: arm
+ram: 96
+flash: 256
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - counter
+  - flash
+  - gpio
+  - i2c
+  - spi
+  - usb_device
+  - usbd
+  - kscan

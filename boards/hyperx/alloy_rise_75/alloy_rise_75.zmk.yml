@@ -1,0 +1,15 @@
+file_format: "1"
+id: alloy_rise_75
+name: HyperX Alloy Rise 75
+type: board
+arch: arm
+features:
+  - keys
+  - studio
+  - encoder
+outputs:
+  - usb
+url: https://hyperx.com/products/hyperx-alloy-rise-75-mechanical-gaming-keyboard
+revisions:
+  - "1.0.0"
+default_revision: "1.0.0"

@@ -1,0 +1,12 @@
+if BOARD_ALLOY_RISE_75
+config BOARD
+    default "alloy_rise_75"
+
+config ZMK_KEYBOARD_NAME
+    default "Hyperx Alloy Rise 75"
+
+
+config ZMK_KSCAN_MATRIX_POLLING
+    default y
+
+endif #BOARD_ALLOY_RISE_75

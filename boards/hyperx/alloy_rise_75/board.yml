@@ -1,0 +1,10 @@
+board:
+  name: alloy_rise_75
+  vendor: hyperx
+  socs:
+    - name: lpc55s16
+  revision:
+    format: major.minor.patch
+    default: 1.0.0
+    revisions:
+      - name: 1.0.0

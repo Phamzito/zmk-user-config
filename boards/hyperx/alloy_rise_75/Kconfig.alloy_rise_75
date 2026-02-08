@@ -1,0 +1,4 @@
+config BOARD_ALLOY_RISE_75
+	bool "HyperX Alloy Rise 75"
+	select SOC_LPC55S16
+	select SOC_PART_NUMBER_LPC55S16JBD100
